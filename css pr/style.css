@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    background-image: url("../backgr/background.jpg");
+    background-size: cover;
+    height: 100px;
+}
+.page-header {
+    height: 140px;
+    background-image: url("../header/header.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 40px;
+}
+.page-header h1 {
+    font-size: 3em;
+    color: #e5f5f5;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: "Palatino Linotype";
+}
+.nav-bar{
+    background: #252525;
+    background: linear-gradient(360deg, #151515, #2c2c2c);
+    position: relative;
+    bottom: 40px;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+}
+.nav-bar ul li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.nav-bar ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #dae8e8;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-bar ul li a span {
+    align-items: stretch;
+    flex: 1;
+}
+.nav-bar ul li:hover {
+    background: linear-gradient(360deg, #101010, #3d1a1a);
+    transition: all 0.4s;
+}
+.nav-bar ul li a:hover {
+    color: #ff5a41;
+    transition: all 0.4s;
+}
+.block {
+    background: #1f1f1f;
+    min-width: 70%;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+}
+.carousel-item img {
+    align-items: center;
+    margin: auto;
+}
+.block h1 {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Palatino Linotype";
+    color: #fbffff;
+}
+.block h4 {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Palatino Linotype";
+    color: #e6f6f6;
+}
+.block h3 {
+    /*font-weight: bold;*/
+    text-align: center;
+    margin-right: 50%;
+    font-family: "Palatino Linotype";
+    color: #e6f6f6;
+    padding-top: 20px;
+}
+.text {
+    padding-top: 40px;
+    width: 85%;
+    margin: auto;
+}
+.text-extra {
+    padding-top: 30px;
+    width: 100%;
+    height: 700px;
+}
+.text-extra .info-extra {
+    margin-right: 50%;
+}
+.text-extra .card {
+    position:relative;
+    bottom: 740px;
+    left: 700px;
+    background-color: #2d2d2d;
+}
+.text-extra .card2 {
+    position:relative;
+    bottom: 720px;
+    left: 700px;
+    background-color: #2d2d2d;
+}
+.text-extra .card .card-text{
+    color: #ccd9d9;
+}
+#carouselExampleCaptions {
+    margin-top: 40px;
+}
+.carousel-caption h5 {
+    text-shadow: 0 0 15px black;
+}
+.carousel-caption p {
+    text-shadow: 0 0 15px black;
+}
+.info {
+    padding-top: 10px;
+    text-indent: 60px;
+    font-size: 1.3em;
+    margin: auto;
+    color: #ccd9d9;
+}
+
+#carouselExampleIndicators {
+    margin-top: 135px;
+}
+.card-line {
+    /*width: 500px;*/
+    margin-top: 20px;
+    display: flex;
+}
+.card-line .card {
+    margin: auto;
+    background: #2d2d2d ;
+}
+.card-line .card .card-text {
+    color: #ccd9d9;
+}
+#carouselExampleCaptions2 {
+    margin-top: 40px;
+ }
+.term {
+    text-decoration: none;
+    color: #ff8d77;
+}
+.term:hover {
+    color: #b40000;
+    transition: all 0.2s;
+}
+.diction {
+    text-decoration: none;
+    color: #ffbb77;
+}
+.diction:hover {
+    color: #b42100;
+    transition: all 0.2s;
+}
+.text-last {
+    padding-bottom: 50px;
+}
+
+
+
+.footer {
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    background: linear-gradient(360deg, #4d0000, #341212, #1c1a1a, #101010);
+}
+.footer .container {
+    width: 70%;
+    padding-top: 100px;
+}
+.footer .container ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+}
+.footer .container ul li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.footer .container ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #dae8e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer .container ul li a span {
+    align-items: stretch;
+    flex: 1;
+}
+.footer .container ul li a:hover {
+    color: #949494;
+    transition: all 0.4s;
+}
+.footer .footer-container {
+    width: 30%;
+    padding-bottom: 100px;
+}
+.footer-container .row .col {
+    padding: 3%;
+
+}
+.footer-container .row .col a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.footer-container .row .col a:hover {
+    color: #ff806c;
+    transition: all 0.4s;
+}

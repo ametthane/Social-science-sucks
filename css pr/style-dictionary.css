@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    background-image: url("../backgr/background.jpg");
+    background-size: cover;
+    height: 100px;
+}
+.page-header {
+    height: 140px;
+    background-image: url("../header/header.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 40px;
+}
+.page-header h1 {
+    font-size: 3em;
+    color: #e5f5f5;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: "Palatino Linotype";
+}
+.nav-bar{
+    background: #252525;
+    background: linear-gradient(360deg, #151515, #2c2c2c);
+    position: relative;
+    bottom: 40px;
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+.nav-bar ul {
+    margin: 0;
+    padding: 0;
+    /*list-style-type: none;*/
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+}
+.nav-bar ul li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.nav-bar ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #dae8e8;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-bar ul li a span {
+    align-items: stretch;
+    flex: 1;
+}
+.nav-bar ul li:hover {
+    background: linear-gradient(360deg, #101010, #3d1a1a);
+    transition: all 0.4s;
+}
+.nav-bar ul li a:hover {
+    color: #ff5a41;
+    transition: all 0.4s;
+}
+.block {
+    background: #1f1f1f;
+    min-width: 70%;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+}
+.block h1 {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Palatino Linotype";
+    color: #fbffff;
+    padding-top: 30px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.line {
+    margin-top: 15px;
+    height: 35px;
+    background: rgba(248, 130, 130, 0.6);
+}
+.row1 {
+    padding-top: 20px;
+    padding-left: 10%;
+    font-size: 1.3em;
+    color: #d7e5e5;
+}
+.row1 .col-2 {
+    font-size: 1.1em;
+}
+.last {
+    padding-bottom: 30px;
+}
+.map {
+    height: 280px;
+}
+.map1 {
+    background-image: url("../images/византия.jpg");
+}
+.map2 {
+    background-image: url("../images/иерусалим.png");
+}
+.map3 {
+    background-image: url("../images/антиохия.jpg");
+}
+.map4 {
+    background-image: url("../images/эдесса.png");
+}
+.map5 {
+    background-image: url("../images/дамаск.jpg");
+    height: 200px;
+}
+.map6 {
+    background-image: url("../images/акра.jpg");
+}
+.map7 {
+    background-image: url("../images/бульонский замок.jpg");
+    height: 300px;
+}
+
+
+
+.footer {
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    background: linear-gradient(360deg, #4d0000, #341212, #1c1a1a, #101010);
+}
+.footer .container {
+    width: 70%;
+    padding-top: 100px;
+}
+.footer .container ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+}
+.footer .container ul li {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.footer .container ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #dae8e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer .container ul li a span {
+    align-items: stretch;
+    flex: 1;
+}
+.footer .container ul li a:hover {
+    color: #949494;
+    transition: all 0.4s;
+}
+.footer .footer-container {
+    width: 30%;
+    padding-bottom: 100px;
+}
+.footer-container .row .col {
+    padding: 3%;
+
+}
+.footer-container .row .col a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.footer-container .row .col a:hover {
+    color: #ff806c;
+    transition: all 0.4s;
+}
