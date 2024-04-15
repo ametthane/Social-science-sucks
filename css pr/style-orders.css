@@ -1,27 +1,27 @@
 body {
     margin: 0;
-    background-image: url("../backgr/background.jpg");
+    background-image: url("../backgr/bacck.png");
     background-size: cover;
     height: 100px;
 }
 .page-header {
     height: 140px;
-    background-image: url("../header/header.jpg");
+    background-image: url("../header/head.jpg");
     background-size: cover;
     position: relative;
     bottom: 40px;
 }
 .page-header h1 {
     font-size: 3em;
-    color: #e5f5f5;
+    color: #22212c;
     position: relative;
     top: 60px;
+    font-weight: bold;
     text-align: center;
     font-family: "Palatino Linotype";
 }
 .nav-bar{
-    background: #252525;
-    background: linear-gradient(360deg, #151515, #2c2c2c);
+    background: linear-gradient(270deg, #8367c9, #ebdcf8);
     position: relative;
     bottom: 40px;
 }
@@ -32,7 +32,6 @@ body {
 .nav-bar ul {
     margin: 0;
     padding: 0;
-    /*list-style-type: none;*/
     display: flex;
     justify-content: space-around;
     min-height: 50px;
@@ -47,7 +46,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #dae8e8;
+    color: #22212c;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -56,15 +56,15 @@ body {
     flex: 1;
 }
 .nav-bar ul li:hover {
-    background: linear-gradient(360deg, #101010, #3d1a1a);
+    background: linear-gradient(360deg, #785eef, #b599fc);
     transition: all 0.4s;
 }
 .nav-bar ul li a:hover {
-    color: #ff5a41;
+    color: #eebfff;
     transition: all 0.4s;
 }
 .block {
-    background: #1f1f1f;
+    background: #e9e3fa;
     min-width: 70%;
     width: 1200px;
     margin: auto;
@@ -75,19 +75,19 @@ body {
     font-weight: bold;
     text-align: center;
     font-family: "Palatino Linotype";
-    color: #fbffff;
+    color: #22212c;
     padding-top: 30px;
 }
 .block h2 {
     text-align: center;
     font-family: "Palatino Linotype";
-    color: #e6f6f6;
+    color: #22212c;
     padding-top: 20px;
 }
 .block h3 {
     text-align: center;
     font-family: "Palatino Linotype";
-    color: #e6f6f6;
+    color: #22212c;
 }
 .lemma {
     width: 85%;
@@ -98,14 +98,14 @@ body {
     font-size: 1.3em;
     text-indent: 60px;
     margin-left: 45%;
-    color: #d7e5e5;
+    color: #22212c;
     padding-top: 20px;
 }
 .lemma .card {
     position:relative;
     bottom: 570px;
     left: 50px;
-    background-color: #2d2d2d;
+    background-color: #e9e3fa;
 }
 .structure {
     width: 85%;
@@ -114,11 +114,11 @@ body {
 .structure-text {
     font-size: 1.3em;
     text-indent: 60px;
-    color: #d7e5e5;
+    color: #22212c;
     padding-top: 20px;
 }
 .structure .card {
-    background: #1f1f1f;
+    background: #e9e3fa;
     margin: auto;
 }
 .orders {
@@ -126,16 +126,16 @@ body {
     margin: auto;
 }
 .orders .card {
-    background: #1f1f1f;
+    background: #e9e3fa;
 }
 .orders .card .card-text {
-    color: #d7e5e5;
+    color: #22212c;
     text-align: center;
 }
 .orders-text {
     font-size: 1.3em;
     text-indent: 60px;
-    color: #d7e5e5;
+    color: #22212c;
     padding-top: 10px;
 }
 .hospital {
@@ -143,25 +143,25 @@ body {
     margin: auto;
     padding-top: 20px;
 }
-.hospital .card-body h5 {
-    color: #ee7256;
-    text-align: center;
-}
-.diction {
-    text-decoration: none;
-    color: #ffbb77;
-}
-.diction:hover {
-    color: #b42100;
-    transition: all 0.2s;
-}
+/*.hospital .card-body h5 {*/
+/*    color: #ee7256;*/
+/*    text-align: center;*/
+/*}*/
+/*.diction {*/
+/*    text-decoration: none;*/
+/*    color: #ffbb77;*/
+/*}*/
+/*.diction:hover {*/
+/*    color: #b42100;*/
+/*    transition: all 0.2s;*/
+/*}*/
 
 
 .footer {
     position: relative;
     bottom: 40px;
     width: 100%;
-    background: linear-gradient(360deg, #4d0000, #341212, #1c1a1a, #101010);
+    background: linear-gradient(360deg, #ede9f5, #dfd9f5, #dccdfc, #d2c4f8);
 }
 .footer .container {
     width: 70%;
@@ -184,7 +184,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #dae8e8;
+    color: #22212c;
     text-decoration: none;
     font-weight: bold;
 }
@@ -193,8 +193,8 @@ body {
     flex: 1;
 }
 .footer .container ul li a:hover {
-    color: #949494;
-    transition: all 0.4s;
+    color: #8c88c5;
+    transition: all 0.3s;
 }
 .footer .footer-container {
     width: 30%;
@@ -202,13 +202,12 @@ body {
 }
 .footer-container .row .col {
     padding: 3%;
-
 }
 .footer-container .row .col a {
     text-decoration: none;
-    color: #cbcbcb;
+    color: #22212c;
 }
 .footer-container .row .col a:hover {
-    color: #ff806c;
-    transition: all 0.4s;
+    color: #8c88c5;
+    transition: all 0.3s;
 }
