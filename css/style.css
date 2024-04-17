@@ -1,0 +1,11 @@
+#slide-1 {
+    background: url("../images/background-1.jpeg") center
+}
+
+body > div {
+    height: 100vh
+}
+
+#title-banner {
+    max-width: 1024px
+}
