@@ -1,9 +1,9 @@
-#slide-1 {
-    background: url("../images/background-1.jpeg") center
-}
-
 body > div {
     height: 100vh
+}
+
+#slide-1 {
+    background: url("../images/background-1.jpeg") center
 }
 
 #title-banner {
