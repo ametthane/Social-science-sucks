@@ -9,3 +9,7 @@ body > div {
 #title-banner {
     max-width: 1024px
 }
+
+#cards {
+    max-width: 1400px;
+}
