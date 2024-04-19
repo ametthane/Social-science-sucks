@@ -8,7 +8,8 @@ body > div:not(#title-slide) {
 }
 
 #title-slide {
-    background: url("../images/background-1.jpeg") center
+    background: url("../images/background-6.jpg") center;
+    background-size: cover;
 }
 
 #title-banner {
@@ -17,8 +18,10 @@ body > div:not(#title-slide) {
 
 #cards {
     max-width: 1400px;
-
     .card {
         --bs-border-radius: 2rem
     }
 }
+/*#title-banner a{*/
+/*    color: whitesmoke;*/
+/*}*/
