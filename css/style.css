@@ -17,4 +17,8 @@ body > div:not(#title-slide) {
 
 #cards {
     max-width: 1400px;
+
+    .card {
+        --bs-border-radius: 2rem
+    }
 }
