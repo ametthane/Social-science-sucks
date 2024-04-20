@@ -1,5 +1,6 @@
 body > div {
     min-height: 100vh;
+    background-color: #f6f7ff;
 }
 
 body > div:not(#title-slide) {
@@ -17,11 +18,42 @@ body > div:not(#title-slide) {
 }
 
 #cards {
-    max-width: 1400px;
+    max-width: 1400px;}
     .card {
-        --bs-border-radius: 2rem
+        --bs-border-radius: 2rem;
     }
+#title-slide {
+    font-family: "Inter Tight", sans-serif;
 }
-/*#title-banner a{*/
-/*    color: whitesmoke;*/
-/*}*/
+#title-banner .display-1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 470;
+}
+#topics-slide .card  {
+    background-color: #f8f9ff;
+    font-family: "Inter";
+}
+#topics-slide h3 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+}
+#topic-1 .display-4 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#topic-2 .display-4 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#topic-3 .display-4 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#topic-4 .display-4 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
