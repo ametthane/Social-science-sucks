@@ -50,3 +50,7 @@ body > div:not(#title-slide) {
     text-align: center;
 }
 
+footer {
+    background-color: #e3e4fe;
+    color: #212529d0
+}
