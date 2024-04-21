@@ -1,5 +1,11 @@
+body {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+}
+
 body > div {
     min-height: 100vh;
+    background-color: #f6f7ff;
 }
 
 body > div:not(#title-slide) {
@@ -8,17 +14,27 @@ body > div:not(#title-slide) {
 }
 
 #title-slide {
-    background: url("../images/background-1.jpeg") center
+    background: url("../images/background-6.jpg") center;
+    background-size: cover;
 }
 
 #title-banner {
-    max-width: 1024px
+    max-width: 1024px;
+
+    .display-1 {
+        font-weight: 470;
+    }
 }
 
 #cards {
     max-width: 1400px;
-
     .card {
-        --bs-border-radius: 2rem
+        background-color: #f8f9ff;
+        font-family: "Inter";
+        --bs-border-radius: 2rem;
     }
+}
+
+:is(#topic-1, #topic-2, #topic-3, #topic-4) > .display-4 {
+    text-align: center;
 }
