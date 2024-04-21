@@ -42,11 +42,11 @@ body > div:not(#title-slide) {
     }
 }
 
+.jobs-list > li + li {
+    margin-top: 1em;
+}
+
 :is(#topic-1, #topic-2, #topic-3, #topic-4) > .display-4 {
     text-align: center;
-    font-family: "Inter Tight";
 }
-.text-bold {
-    font-weight: bold;
-    display: inline;
-}
+
