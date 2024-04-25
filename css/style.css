@@ -83,7 +83,19 @@ body > div:not(#title-slide) {
     margin-top: 1em;
 }
 
-footer {
+#about-us {
     background-color: #e3e4fe;
-    color: #212529d0
+    color: #212529d0;
+
+    .container {
+        max-width: 1400px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #footer-credits {
+        margin-bottom: .5rem;
+    }
 }
