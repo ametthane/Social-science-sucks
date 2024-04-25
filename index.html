@@ -4,8 +4,7 @@
     <!-- Google fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -20,7 +19,7 @@
   </head>
   <body>
     <div id="title-slide" class="d-flex flex-column">
-      <nav class="navbar sticky-top px-2">
+      <nav class="navbar px-2">
         <div class="container-fluid">
           <a class="navbar-brand me-auto" href="#">Финансовая грамотность</a>
           <a class="nav-link" href="#about-us">О нас</a>
@@ -31,11 +30,11 @@
           Работать с финансами может каждый. <br>
           В том числе и Вы.
         </h1>
-        <div class="col-12 col-lg-8">
+        <div class="col-12 col-lg-8 mb-3">
           Наш сайт рассчитан на подростков и нацелен на развитие у них финансовой грамотности. Здесь Вы не найдёте того,
-           что не подойдёт несовершеннолетним, зато легко узнаете основную и нужную информацию.
+          что не подойдёт несовершеннолетним, зато легко узнаете основную и нужную информацию.
         </div>
-        <a class="align-self-start btn btn-outline-dark icon-link mt-3 pe-3" href="#topics-slide" style="border-radius: 2em">
+        <a class="align-self-start btn btn-outline-dark icon-link pe-3" href="#topics-slide">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
           </svg>
@@ -46,13 +45,13 @@
 
     <div id="topics-slide" class="d-flex flex-column align-items-center justify-content-center">
       <h3 class="display-3 my-3">Навигация</h3>
-      <div id="cards" class="row row-cols-2 row-cols-lg-4 m-3 g-3">
+      <div id="topics-cards" class="row row-cols-2 row-cols-lg-4 m-3 g-3">
         <div class="col">
           <div class="card">
-            <img src="images/card-2.png" class="card-img-top">
+            <img class="card-img-top" src="images/card-2.png">
             <div class="card-body">
-              <h2 class="card-title">Карты</h2>
-              <a class="btn btn-outline-dark w-100" href="#topic-1" style="border-radius: 1rem">
+              <h3 class="card-title ps-1 mb-3">Карты</h2>
+              <a class="btn btn-outline-dark w-100" href="#topic-1">
                 Подробнее...
               </a>
             </div>
@@ -60,10 +59,10 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="images/card-3.png" class="card-img-top">
+            <img class="card-img-top" src="images/card-3.png">
             <div class="card-body">
-              <h2 class="card-title">Безопасность</h2>
-              <a class="btn btn-outline-dark w-100" href="#topic-2" style="border-radius: 1rem">
+              <h3 class="card-title ps-1 mb-3">Защита</h2>
+              <a class="btn btn-outline-dark w-100" href="#topic-2">
                 Подробнее...
               </a>
             </div>
@@ -71,10 +70,10 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="images/card-4.png" class="card-img-top">
+            <img class="card-img-top" src="images/card-4.png">
             <div class="card-body">
-              <h2 class="card-title">Вклады</h2>
-              <a class="btn btn-outline-dark w-100" href="#topic-3" style="border-radius: 1rem">
+              <h3 class="card-title ps-1 mb-3">Вклады</h2>
+              <a class="btn btn-outline-dark w-100" href="#topic-3">
                 Подробнее...
               </a>
             </div>
@@ -82,10 +81,10 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="images/card-5.png" class="card-img-top">
+            <img class="card-img-top" src="images/card-5.png">
             <div class="card-body">
-              <h2 class="card-title">Профессии</h2>
-              <a class="btn btn-outline-dark w-100" href="#topic-4" style="border-radius: 1rem">
+              <h3 class="card-title ps-1 mb-3">Профессии</h2>
+              <a class="btn btn-outline-dark w-100" href="#topic-4">
                 Подробнее...
               </a>
             </div>
@@ -95,18 +94,19 @@
     </div>
 
     <div id="topic-1" class="d-flex flex-column">
-      <h1 class="display-4 my-5">Пользование банковской картой</h1>
-      <div class="container" style="max-width: 1400px">
-        <div class="row row-cols-2 g-4" style="margin-bottom: 1.5rem">
+      <h1 class="topic-heading display-4">Пользование банковской картой</h1>
+      <div class="container">
+        <div class="row row-cols-2 g-4">
           <div class="col">
-            <div class="card card-body px-4">
+            <div class="card card-body px-4 pb-4">
               Уже с 14 лет можно открыть отдельный банковский счёт и оформить собственную карту. Для этого требуется
               прийти в отделение банка с паспортом и письменным согласием законного представителя. Давайте же разберёмся
               в устройстве самой карты.
-              <div class="hstack p-2">
-                <div class="vr me-3 opacity-75 bg-success" style="min-width: 2px"></div>
-                <blockquote class="blockquote m-0">
-                  Банковская платёжная карточка - инструмент, дающий своему держателю возможность доступа к денежным средствам, находящимся у него на счёте в банке.
+              <div class="callout p-2">
+                <div class="vr bg-success"></div>
+                <blockquote class="blockquote">
+                  Банковская платёжная карточка - инструмент, дающий своему держателю возможность доступа к денежным
+                  средствам, находящимся у него на счёте в банке.
                 </blockquote>
               </div>
             </div>
@@ -116,17 +116,18 @@
               Выделяют следующие банковские карточки:
               <ul>
                 <li>
-                  <strong>Дебетовые.</strong> Операции по ним производятся в пределах тех средств, что есть на счёте клиента банка.
+                  <strong>Дебетовые.</strong> Операции по ним производятся в пределах тех средств, что есть на счёте
+                  клиента банка.
                 </li>
                 <li>
-                  <strong>Кредитные.</strong> Расчёты по операциям производятся за счёт кредита, предоставляемого банком держателю
-                  карточки. Эти деньги необходимо будет вернуть банку через определённый промежуток времени.
+                  <strong>Кредитные.</strong> Расчёты по операциям производятся за счёт кредита, предоставляемого банком
+                  держателю карточки. Эти деньги необходимо будет вернуть банку через определённый промежуток времени.
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
+        <div class="card card-body px-4">
           <div class="d-flex flew-row gap-3">
             <div class="w-50 flex-shrink-0">
               На лицевой стороне располагаются:
@@ -157,7 +158,7 @@
             <img class="overflow-auto align-self-start px-2 py-4" src="images/credit-card-front.png">
           </div>
         </div>
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
+        <div class="card card-body px-4">
           <div class="d-flex flew-row gap-3">
             <div class="w-50 flex-shrink-0">
               На оборотной стороне располагаются:
@@ -176,9 +177,9 @@
                   подлинность карточки и что покупки через интернет совершает её владелец.
                   <br>
                   Разные платёжные системы имеют свои коды безопасности.
-                  <div class="hstack my-2">
-                    <div class="vr me-3 opacity-75 bg-success" style="min-width: 2px"></div>
-                    <blockquote class="blockquote m-0">
+                  <div class="callout my-2">
+                    <div class="vr bg-success"></div>
+                    <blockquote class="blockquote">
                       <strong>CVC2</strong> (CVV2, CID) - код для проверки подлинности карты при оплате через интернет.
                     </blockquote>
                   </div>
@@ -195,15 +196,15 @@
     </div>
 
     <div id="topic-2" class="d-flex flex-column">
-      <h1 class="display-4 my-5">Защита от мошенников</h1>
-      <div class="container" style="max-width: 1400px">
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
-          <p class="fs-4 mb-4 w-75">
+      <h1 class="topic-heading display-4">Защита от мошенников</h1>
+      <div class="container">
+        <div class="card card-body px-4">
+          <p class="fs-5 mb-4 w-75">
             В прошлой статье мы разобрали устройство банковской карточки. Однако с её получением приходит и
             ответственность. Необходимо соблюдать правила безопасности, что обеспечат Вам сохранность денег.
           </p>
           <div class="row g-5">
-            <div class="col col-7">
+            <div class="col col-8">
               <span class="fs-5">
                 Предлагаем Вам ознакомиться со следующими правилами и советами:
               </span>
@@ -243,17 +244,17 @@
                 </li>
               </ul>
             </div>
-            <div class="col col-5 mt-4">
-              <div class="hstack my-3">
-                <div class="vr me-3 opacity-75 bg-danger" style="min-width: 2px"></div>
-                <blockquote class="blockquote m-0">
+            <div class="col col-4 mt-3">
+              <div class="callout my-3">
+                <div class="vr bg-danger"></div>
+                <blockquote class="blockquote">
                   <strong>Вишинг</strong> - мошенничество, направленное на выуживание конфиденциальной информации у человека с помощью
                   телефонной коммуникации.
                 </blockquote>
               </div>
-              <div class="hstack my-3">
-                <div class="vr me-3 opacity-75 bg-danger" style="min-width: 2px"></div>
-                <blockquote class="blockquote m-0">
+              <div class="callout my-3">
+                <div class="vr bg-danger"></div>
+                <blockquote class="blockquote">
                   <strong>Скимминг</strong> - установка специального оборудования на банкомат с целью считывания и записи данных карточки
                   для дальнейшего изготовления копии.
                 </blockquote>
@@ -274,13 +275,13 @@
           </div>
         </div>
 
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
-          <p class="fs-4 mb-4 w-75">
+        <div class="card card-body px-4">
+          <p class="fs-5 mb-4 w-75">
             Однако в наше время чаще всего происходят онлайн преступления, связанные с кражей данных или денег. Поэтому
             очень важно знать правила безопасного пользования интернет- и мобильным банкингом.
           </p>
           <div class="row g-5">
-            <div class="col col-7">
+            <div class="col col-8">
               <ul>
                 <li><strong>
                   Нельзя передавать или сообщать кому-либо логин, пароль, сеансовый ключ и другие личные данные.
@@ -313,17 +314,17 @@
                 </li>
               </ul>
             </div>
-            <div class="col col-5 mt-4">
-              <div class="hstack my-3">
-                <div class="vr me-3 opacity-75 bg-danger" style="min-width: 2px"></div>
-                <blockquote class="blockquote m-0">
+            <div class="col col-4 mt-3">
+              <div class="callout my-3">
+                <div class="vr bg-danger"></div>
+                <blockquote class="blockquote">
                   <strong>Фишинг</strong> - вид интернет-мошенничества, целью которого является получение доступа к конфиденциальным
                   данным пользователя.
                 </blockquote>
               </div>
-              <div class="hstack my-3">
-                <div class="vr me-3 opacity-75 bg-success" style="min-width: 2px"></div>
-                <blockquote class="blockquote m-0">
+              <div class="callout my-3">
+                <div class="vr bg-success"></div>
+                <blockquote class="blockquote">
                   Технология <strong>3-D Secure</strong> - система дополнительного подтверждения операций, совершаемых держателями
                   банковских платёжных карточек в сети интернет, с целью повышения безопасности платежей.
                 </blockquote>
@@ -334,24 +335,23 @@
       </div>
     </div>
 
-
     <div id="topic-3" class="d-flex flex-column">
-      <h1 class="display-4 my-5">Банковские вклады</h1>
-      <div class="container" style="max-width: 1400px">
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
+      <h1 class="topic-heading display-4">Банковские вклады</h1>
+      <div class="container">
+        <div class="card card-body px-4">
           <h4 class="fw-normal">
             Давайте рассмотрим возможные варианты пользования банковскими услугами для несовершеннолетних.
           </h4>
-          <div class="hstack p-2">
-            <div class="vr me-3 opacity-75 bg-success" style="width: 3px"></div>
-            <blockquote class="blockquote m-0">
+          <div class="callout p-2">
+            <div class="vr bg-success" style="width: 3px"></div>
+            <blockquote class="blockquote">
               <strong>Вклад</strong> (<strong>депозит</strong>) - деньги, которые гражданин передаёт в банк для хранения
               и получения дохода - или на определённый срок, или до востребования, или до наступления (ненаступления)
               определённого в данном договоре события.
             </blockquote>
           </div>
         </div>
-        <div class="row row-cols-2 g-4" style="margin-bottom: 1.5rem">
+        <div class="row row-cols-2 g-4">
           <div class="col">
             <div class="card card-body px-4">
               <h5 class="fw-bold">Договор и его основные условия банковского вклада</h5>
@@ -360,7 +360,8 @@
                   Договор заключается в письменной форме. В ином случае он является недействительным.
                 </li>
                 <li>
-                  Согласно договору банк принимает деньги от вкладчика и обязуется их возвратить вместе с начисленными процентами (всё происходит согласно договору).
+                  Согласно договору банк принимает деньги от вкладчика и обязуется их возвратить вместе с начисленными
+                  процентами (всё происходит согласно договору).
                 </li>
                 <li>
                   Важно обратить внимание на валюту вклада, сумму первоначального взноса, размер процентов, порядок их
@@ -375,31 +376,34 @@
               <h5 class="fw-bold">Договоры подразделяются на отзывные и безотзывные</h5>
               <ul>
                 <li>
-                  Если вклад отзывной, то его могут вернуть вкладчику досрочно (по его же инициативе).
-                  Но процентная ставка таких вкладов обычно ниже.
+                  Если вклад отзывной, то его могут вернуть вкладчику досрочно (по его же инициативе). Но процентная
+                  ставка таких вкладов обычно ниже.
                 </li>
                 <li>
-                  Безотзывной договор не предусматривает досрочный возврат денег, но и доходность такового договора выше.
+                  Безотзывной договор не предусматривает досрочный возврат денег, но и доходность такового договора
+                  выше.
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="card card-body pb-2" style="margin-bottom: 1.5rem">
+        <div class="card card-body pb-2">
           <div class="col">
               <h5 class="fw-bold">Детский банковский вклад</h5>
-              Вклад на имя ребёнка, если ему ещё нет 14 лет, могут сделать родители, родственники или опекуны.
-              По достижению 14 лет молодой человек может самостоятельно открыть счёт в банке. А при наличии на его имя вклада, сам обратиться в банк с письменной просьбой о передаче ему права на владение депозитом. Если же такой запрос не поступает,
-              то право распоряжаться вкладом переходит к нему автоматически по достижению совершеннолетия.
+              Вклад на имя ребёнка, если ему ещё нет 14 лет, могут сделать родители, родственники или опекуны. По
+              достижению 14 лет молодой человек может самостоятельно открыть счёт в банке. А при наличии на его имя
+              вклада, сам обратиться в банк с письменной просьбой о передаче ему права на владение депозитом. Если же
+              такой запрос не поступает, то право распоряжаться вкладом переходит к нему автоматически по достижению
+              совершеннолетия.
           </div>
         </div>
       </div>
     </div>
 
     <div id="topic-4" class="d-flex flex-column">
-      <h1 class="display-4 my-5">Профессии в финансовой сфере</h1>
-      <div class="container" style="max-width: 1400px">
-        <div class="card card-body px-4" style="margin-bottom: 1.5rem">
+      <h1 class="topic-heading display-4">Профессии в финансовой сфере</h1>
+      <div class="container">
+        <div class="card card-body px-4">
           <div class="fs-4">
             Если Вас заинтересовала финансовая сфера не только с точки зрения потребителя, но и появилось желание
             попробовать себя в ней, мы подготовили для Вас список актуальных профессий. Стоит отметить, что в
@@ -423,9 +427,8 @@
                   использования информации о ресурсах, расходах и прибыли компании.
                 </li>
                 <li>
-                  <strong>Аудитор</strong> - специалист, что занимается проверкой документов, отчётности
-                  (финансовой и налоговой), консультированием по ведению бухгалтерского учёта, делает вывод о законности
-                  операций.
+                  <strong>Аудитор</strong> - специалист, что занимается проверкой документов, отчётности (финансовой и
+                  налоговой), консультированием по ведению бухгалтерского учёта, делает вывод о законности операций.
                 </li>
                 <li>
                   <strong>Банковским работником</strong> может называться любой сотрудник, независимо от выполняемых

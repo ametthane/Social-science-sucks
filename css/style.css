@@ -1,23 +1,11 @@
 body {
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 400;
+    font-family: Manrope, sans-serif;
     font-size: 1.125rem;
-}
-
-blockquote {
-    font-size: 1.375rem;
-    letter-spacing: -0.01em;
-    line-height: 1.3em;
 }
 
 body > div {
     min-height: 100vh;
     background-color: #f6f7ff;
-}
-
-body > div:not(#title-slide) {
-    padding-left: .75rem;
-    padding-right: .75rem;
 }
 
 #title-slide {
@@ -27,27 +15,72 @@ body > div:not(#title-slide) {
 
 #title-banner {
     max-width: 1024px;
+    font-weight: 500;
 
     .display-1 {
-        font-weight: 470;
+        font-weight: 550;
+    }
+
+    .btn {
+        border-radius: 2em;
     }
 }
 
-#cards {
+#topics-cards {
     max-width: 1400px;
+
     .card {
         background-color: #f8f9ff;
-        font-family: "Inter";
         --bs-border-radius: 2rem;
+    }
+
+    .card a {
+        border-radius: 1em;
+    }
+}
+
+.topic-heading {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* topics */
+body > div:not(#title-slide) {
+    padding-left: .75rem;
+    padding-right: .75rem;
+
+    > .container {
+        max-width: 1400px;
+
+        .card {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.callout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+
+    > .vr {
+        min-width: 2px;
+        margin-right: 1rem;
+        opacity: .75;
+    }
+
+    > blockquote {
+        margin: 0;
+        font-size: 1.25rem;
+        letter-spacing: -0.005em;
+        line-height: 1.3em;
     }
 }
 
 .jobs-list > li + li {
     margin-top: 1em;
-}
-
-:is(#topic-1, #topic-2, #topic-3, #topic-4) > .display-4 {
-    text-align: center;
 }
 
 footer {
