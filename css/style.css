@@ -83,6 +83,10 @@ body > div:not(#title-slide) {
     margin-top: 1em;
 }
 
+dl.monospaced-dd > dd {
+    font-family: monospace;
+}
+
 #about-us {
     background-color: #e3e4fe;
     color: #212529d0;
